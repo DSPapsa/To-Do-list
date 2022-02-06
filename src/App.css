@@ -1,0 +1,108 @@
+
+
+body {
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.app {
+  
+  width: 440px;
+  min-height: 600px;
+  text-align: center;
+  margin-left: 480px;
+  border-radius: 50px;
+  background: #ff0084;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+  margin: 22px 0;
+  color: rgb(36, 28, 28);
+  font-size: 34px;
+  font-style: initial;
+}
+
+
+.dsp2 {
+  padding: 14px 32px 14px 16px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-style: inset;
+  outline: none;
+  width: 250px;
+  color: rgb(17, 16, 16);
+}
+
+.dsp2::placeholder {
+  color: #0f0c0c;
+}
+
+.icon{
+  padding: 16px;
+  border: none;
+  border-radius: 6px 6px 6px 6px;
+  cursor: pointer;
+  outline: none;
+  color: rgb(17, 16, 16);
+  background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.item {
+  background-color: rgb(194, 170, 170);
+  margin-left: 9px;
+}
+
+.dsp1 {
+  background: #B3FFAB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 5px;
+  padding: 15px 26px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px auto;
+  padding: 16px;
+  border-radius: 5px;
+  width: 72.9%;
+  background: #616161;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15px 15px 15px 15px;
+}
+
+.rms {
+  display: flex;
+  align-items: center;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: rgb(12, 7, 7);
+}
+
+.edit-icon {
+  color: rgb(10, 9, 9);
+}
